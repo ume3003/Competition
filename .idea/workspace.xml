@@ -1,12 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b4b330-6c05-48d9-8a94-828ba633ff43" name="Default" comment="" />
+    <list default="true" id="74b4b330-6c05-48d9-8a94-828ba633ff43" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/default.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/robot.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/runtime.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Competition.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Test.js" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1398751729267" ignored="false" />
-    <file path="/index.js" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1398752364673" ignored="false" />
-    <file path="/package.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1398755988160" ignored="false" />
+    <file path="/index.js" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1398763385264" ignored="false" />
+    <file path="/package.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1398761266130" ignored="false" />
+    <file path="/app.js" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405664532035" ignored="false" />
+    <file path="/so.js" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1398910978371" ignored="false" />
+    <file path="/default.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1398758868188" ignored="false" />
+    <file path="/client.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399020776072" ignored="false" />
+    <file path="/Dummy.txt" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405670706094" ignored="false" />
+    <file path="/robot.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399340250773" ignored="false" />
+    <file path="dbtable:/da42231a/0b3f26cc-6369-4b19-a8a6-882ec6742018/KoumeChan..login" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405489705725" ignored="false" />
+    <file path="dbtable:/da42231a/0b3f26cc-6369-4b19-a8a6-882ec6742018/KoumeChan..game_character" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405489890354" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/Global.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399340047056" ignored="false" />
+    <file path="/Global.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399339779796" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/controllers/Application.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399526008835" ignored="false" />
+    <file path="/Application.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399525924739" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/conf/routes" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1404804159981" ignored="false" />
+    <file path="/routes" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1404803818770" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/controllers/MasterApplication.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399341593708" ignored="false" />
+    <file path="/MasterApplication.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399341592620" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/views/robot.scala.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399356494013" ignored="false" />
+    <file path="/robot.scala.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399356484902" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/models/data/Login.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1404808759397" ignored="false" />
+    <file path="/Login.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399964395971" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/controllers/BaseKoumeApplication.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405558851710" ignored="false" />
+    <file path="/BaseKoumeApplication.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405558850431" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/controllers/CompetitionApplication.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405479212719" ignored="false" />
+    <file path="/CompetitionApplication.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405479211339" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/models/data/Friend.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399525453820" ignored="false" />
+    <file path="/Friend.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399525400892" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/models/utils/JsonKeyString.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1404809433312" ignored="false" />
+    <file path="/JsonKeyString.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1404809427002" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/models/data/GameCharacter.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399517698886" ignored="false" />
+    <file path="dbtable:/da42231a/0b3f26cc-6369-4b19-a8a6-882ec6742018/KoumeChan..friend" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405489696891" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/controllers/CommunityApplication.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399949178870" ignored="false" />
+    <file path="/CommunityApplication.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399870651420" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/tests/login.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399870431961" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/tests/addFriend.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399870583831" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/tests/login2.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399949405686" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/target/scala-2.10/src_managed/main/routes_routing.scala" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399965492869" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/target/scala-2.10/src_managed/main/controllers/routes.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1399965492869" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/target/scala-2.10/src_managed/main/routes_reverseRouting.scala" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1404886405445" ignored="false" />
+    <file path="/enemy.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1400115871923" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/ShowEnemy/app/controllers/Application.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1400656119360" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/ShowEnemy/conf/routes" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1400656156279" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/json/unit.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1402475832059" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/models/master/Unit.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1402308432664" ignored="false" />
+    <file path="/Unit.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1402308428912" ignored="false" />
+    <file path="/Unit.scala.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1402308824195" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/models/master/Force.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1402884531480" ignored="false" />
+    <file path="/Force.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1402884510407" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/views/Force.scala.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1402884765081" ignored="false" />
+    <file path="/Force.scala.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1402884680373" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/views/Scenario.scala.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405476862171" ignored="false" />
+    <file path="/Scenario.scala.html" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405476862171" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/models/master/Scenario.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405476577120" ignored="false" />
+    <file path="/Scenario.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405476577120" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/json/scenario.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405476961369" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/app/models/master/manager/ScenarioUnitManager.java" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405477778066" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/json/base_damage.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405670668517" ignored="false" />
+    <file path="$PROJECT_DIR$/../../playProjects/koumeServer/json/skill.json" changelist="74b4b330-6c05-48d9-8a94-828ba633ff43" time="1405670668888" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +103,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -54,8 +120,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules />
@@ -67,19 +133,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test.js">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+            <state line="249" column="28" selection-start="11462" selection-end="11462" vertical-scroll-proportion="0.38626608">
+              <folding>
+                <element signature="e#2415#6327#0" expanded="false" />
+                <element signature="e#6376#6822#0" expanded="false" />
+                <element signature="e#6869#7333#0" expanded="false" />
+                <element signature="e#8001#9210#0" expanded="false" />
+                <element signature="e#9335#10197#0" expanded="false" />
+                <element signature="e#10313#11431#0" expanded="false" />
+                <element signature="e#11563#11875#0" expanded="false" />
+                <element signature="e#12038#13483#0" expanded="false" />
+                <element signature="e#13570#14974#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Competition.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Competition.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="default.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/default.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="292" selection-end="292" vertical-scroll-proportion="0.22269353">
+            <state line="3" column="27" selection-start="78" selection-end="78" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtime.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/runtime.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="66" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.websocket.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/client.websocket.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="63" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robot.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/robot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="142" column="28" selection-start="5754" selection-end="5754" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unit.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../playProjects/koumeServer/app/views/Unit.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="132" column="0" selection-start="6902" selection-end="6902" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../playProjects/koumeServer/app/views/main.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="197" column="0" selection-start="8648" selection-end="8648" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,22 +231,38 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Test.js" />
         <option value="$PROJECT_DIR$/node_modules/express/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/so.js" />
+        <option value="$PROJECT_DIR$/so.websocket.js" />
+        <option value="$PROJECT_DIR$/html/client.html" />
+        <option value="$PROJECT_DIR$/html/robot.html" />
+        <option value="$PROJECT_DIR$/html/enemy.html" />
+        <option value="$PROJECT_DIR$/config/default.json" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1930" />
-    <option name="y" value="-98" />
-    <option name="width" value="1858" />
-    <option name="height" value="1113" />
+    <option name="x" value="3213" />
+    <option name="y" value="22" />
+    <option name="width" value="1895" />
+    <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -135,7 +290,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,9 +309,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,13 +349,15 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/express/index.js" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -266,6 +451,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -287,8 +479,10 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Test" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="node_modules/express/index.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="Test" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
@@ -301,6 +495,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="74b4b330-6c05-48d9-8a94-828ba633ff43" name="Default" comment="" />
@@ -310,7 +521,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1930" y="-98" width="1858" height="1113" extended-state="0" />
+    <frame x="3213" y="22" width="1895" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -319,7 +530,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Repo Search" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46304348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -331,8 +542,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67035174" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2449973" sideWeight="0.53695655" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4306011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -398,14 +609,17 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="19" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Competition.iml">
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea12/extLibs/nodejs-v0.10.26-src/core-modules-sources/lib/timers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="114" column="0" selection-start="3567" selection-end="3567" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test.js">
@@ -415,10 +629,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/so.websocket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="292" selection-end="292" vertical-scroll-proportion="0.22269353">
+        <state line="9" column="30" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../playProjects/koumeServer/app/views/Unit.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="0" selection-start="6902" selection-end="6902" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../playProjects/koumeServer/app/views/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="0" selection-start="8648" selection-end="8648" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/robot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="28" selection-start="5754" selection-end="5754" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea12/extLibs/nodejs-v0.10.26-src/core-modules-sources/lib/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="456" column="0" selection-start="12822" selection-end="12822" vertical-scroll-proportion="0.0146484375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/client.websocket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="63" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Competition.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="66" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/redis/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="23" selection-start="5431" selection-end="5431" vertical-scroll-proportion="0.3323398" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/runtime.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.websocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.73717946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/so.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/default.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="78" selection-end="78" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="249" column="28" selection-start="11462" selection-end="11462" vertical-scroll-proportion="0.38626608">
+          <folding>
+            <element signature="e#2415#6327#0" expanded="false" />
+            <element signature="e#6376#6822#0" expanded="false" />
+            <element signature="e#6869#7333#0" expanded="false" />
+            <element signature="e#8001#9210#0" expanded="false" />
+            <element signature="e#9335#10197#0" expanded="false" />
+            <element signature="e#10313#11431#0" expanded="false" />
+            <element signature="e#11563#11875#0" expanded="false" />
+            <element signature="e#12038#13483#0" expanded="false" />
+            <element signature="e#13570#14974#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

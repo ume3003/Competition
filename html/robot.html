@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<table>
+    <tr>
+        <td><input id='urlInput' type=text/></td>
+        <td><input type='button' id='urlSubmit' value='set URL'/></td>
+        <td><div id='url'></div></td>
+        <TD><input type='button' id='doAll' value='do all'/></TD>
+        <TD><input type='button' id='stopAll' value='stop all'/></TD>
+    </tr>
+</table>
+<table id='slot'>
+    <tr>
+        <TD><input type='button' id="start1" class='start' value='アクセス開始' /></TD>
+        <td><input id='jsonInput1' class='jsonInput' type='file' />
+            <input type='button' id='jsonSubmit1' class='jsonSubmit' value='set jsonFile'/>
+            <div id='json1'></div>
+        </td>
+    </tr>
+    <tr>
+        <td><div id='counter1'></div></td>
+        <td><div id='average1'></div></td>
+    </tr>
+    <tr>
+        <TD colspan=2><DIV id='result1'></DIV></TD>
+    </TR>
+    <tr>
+        <TD><input type='button' id="start2" class='start' value='アクセス開始' /></TD>
+        <td><input id='jsonInput2' class='jsonInput' type='file' />
+            <input type='button' id='jsonSubmit2' class='jsonSubmit' value='set jsonFile'/>
+            <div id='json2'></div>
+        </td>
+    </tr>
+    <tr>
+        <td><div id='counter2'></div></td>
+        <td><div id='average2'></div></td>
+    </tr>
+    <tr>
+        <TD colspan=2><DIV id='result2'></DIV></TD>
+    </TR>
+    <tr>
+        <TD><input type='button' id="start3" class='start' value='アクセス開始' /></TD>
+        <td><input id='jsonInput3' class='jsonInput' type='file' />
+            <input type='button' id='jsonSubmit3' class='jsonSubmit' value='set jsonFile'/>
+            <div id='json3'></div>
+        </td>
+    </tr>
+    <tr>
+        <td><div id='counter3'></div></td>
+        <td><div id='average3'></div></td>
+    </tr>
+    <tr>
+        <TD colspan=2><DIV id='result3'></DIV></TD>
+    </TR>
+    <tr>
+        <TD><input type='button' id="start4" class='start' value='アクセス開始' /></TD>
+        <td><input id='jsonInput4' class='jsonInput' type='file' />
+            <input type='button' id='jsonSubmit4' class='jsonSubmit' value='set jsonFile'/>
+            <div id='json4'></div>
+        </td>
+    </tr>
+    <tr>
+        <td><div id='counter4'></div></td>
+        <td><div id='average4'></div></td>
+    </tr>
+    <tr>
+        <TD colspan=2><DIV id='result4'></DIV></TD>
+    </TR>
+</table>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" 	 	type="text/javascript"></script>
+<script type="text/javascript">
+         $(function(){
+             var row = 5;
+             var count = {},
+                 timer = {},
+                 fail = {};
+             var summary = {};
+             $('#urlSubmit').click(
+                     function(){
+                         var txt = $('#urlInput').val();
+                         $('#url').text(txt);
+                         console.log('click ;' + txt);
+                     }
+             );
+
+             $('#stop').click(function(){
+                 for(var i = 0 ; i < row;i++){
+                     clearInterval(timer[id]);
+                 }
+             });
+             $('#doAll').click(function(){
+                for(var i = 1;i < row;i++){
+                    $('#start' + i).eq(0).click();
+                }
+             });
+             for(var i = 1;i < row;i++){
+                 (function(id){
+                    $('#start' + id).click(
+                            function(){
+                                var retryCount = 0;
+                                var json = $('#json' + id).text();
+                                var url = $('#url').text();
+                                count[id] = 0;
+                                fail[id] = 0;
+                                summary[id] = 0;
+                                $('#result' +id ).text('accessing...');
+                                timer[id] = setInterval(
+                                function(){
+                                    console.log('id ' + id + ' count ' + count[id]);
+                                    var now = $.now();
+                                    retryCount++;
+                                    count[id]++;
+                                    if(retryCount === 101){
+                                        clearInterval(timer[id]);
+                                    }
+                                    $.ajax({
+                                        type        : "POST",
+                                        dataType    : 'json',
+                                        cache       : false,
+                                        data        : json,
+                                        headers     : { 'Content-Type' : 'application/json'},
+                                        url         : url,
+                                        success     : function(data,datatype){
+                                            var past = ($.now() - now) / 1000;
+                                            summary[id] += past;
+                                            $('#average' + id).text(summary[id] / count[id] + ' ' + summary[id]);
+                                            $('#counter' + id).text('' + count[id] + '(' + fail[id] + ')');
+                                            $('#result' + id ).text(JSON.stringify(data));
+                                        },
+                                        error       : function(XMLHttpRequest,textStatus,errorThrown){
+                                            fail[id]++;
+                                            console.log(textStatus);
+                                        }
+                                    });
+
+                                },100);
+
+                            }
+                    );
+                     $('#jsonSubmit' + id).click(
+                             function(){
+                                 console.log('id=' + id);
+                                 var file = $('#jsonInput' + id)[0].files[0];
+                                 var reader = new FileReader();
+                                 reader.onload = function(evt){
+                                     $('#json' + id).text(reader.result);
+                                 }
+                                 reader.readAsText(file,'UTF-8');
+                             }
+                     );
+
+                })(i);
+             }
+         });
+</script>
+</body>
+</html>
