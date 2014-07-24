@@ -1,0 +1,57 @@
+<html>
+<head>
+</head>
+<body>
+<input id="message" type="text"><button id="send">send</button>
+<div id="output"></div>
+
+<script>
+    (function() {
+        var ws = new WebSocket("ws://localhost:8000");
+        var output = document.getElementById('output');
+        var send = document.getElementById('send');
+
+        function logStr(eventStr, msg) {
+            return '<div>' + eventStr + ':' + msg + '</div>';
+        }
+
+        send.addEventListener('click', function() {
+            var msg = document.getElementById('message').value;
+            var sendMsg = {};
+            sendMsg.cmd = 'msg';
+            sendMsg.data = msg;
+            ws.send(JSON.stringify(sendMsg));
+            output.innerHTML += logStr('send', msg);
+        });
+
+        ws.onmessage = function(e) {
+            try{
+                var json = JSON.parse(e.data);
+                if(json.cmd !== undefined){
+                    if(json.cmd === 'needId'){
+                        output.innerHTML += logStr('cmd','needId' );
+                        var sendMsg = {};
+                        sendMsg.id = window.navigator.userAgent;
+                        ws.send(JSON.stringify(sendMsg));
+                    }
+                    if(cmd === 'message'){
+                        output.innerHTML += logStr('msg',json.message );
+                    }
+                }
+                else{
+                    output.innerHTML += logStr('recieved', e.data);
+                }
+            }
+            catch(err){
+                output.innerHTML(err);
+            }
+        };
+
+        ws.onclose = function (e) {
+            output.innerHTML += logStr('disconnect', e.code + ' - ' + e.type);
+        };
+    }());
+
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Socket.IO Chat Example</title>
+</head>
+<body>
+<table>
+    <tr><td>
+        <input type="button" value="connect001" class="connect001">
+        <input type="button" value="leaveRoom001" class="leaveRoom001">
+        <input type="button" value="disconnect001" class="disconnect001">
+        <input type="button" value="sayRoom001" class="sayRoom001">
+    </td>
+    </tr>
+    <tr>
+        <td>
+        <input type="button" value="connect002" class="connect002">
+        <input type="button" value="disconnect002" class="disconnect002">
+        <input type="button" value="leaveRoom002" class="leaveRoom002">
+        <input type="button" value="sayRoom002" class="sayRoom002">
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <input type="button" value="connect999" class="connect999">
+        <input type="button" value="disconnect999" class="disconnect999">
+        <input type="button" value="leaveRoom999" class="leaveRoom999">
+        <input type="button" value="sayRoom999" class="sayRoom999">
+        </td>
+    </tr>
+</table>
+<div class='chat'></div>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" 	 	type="text/javascript"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript">
+    var socket = undefined;
+
+    function sayRoom(socket,message){
+        socket.emit('sayRoom',{msg:message});
+    }
+
+    function startConnection(io,userID){
+        var socket = io.connect('http://localhost:3000');
+        console.log('first connect ');
+
+        socket.on("connect",function(){
+            console.log('connect');
+            socket.emit("addUser",{userUUID:userID,roomUUID:'sampleRoomUUID0001'});
+        });
+        socket.on("joinRoom",function(data){
+            console.log(data.retCode + ' ' + data.msg.roomUUID + ' ' + data.msg.registered['002'].displayName);
+        });
+        socket.on('competitorJoin',function(data){
+            console.log(data.retCode + ' ' + data.msg.userUUID + ' ' + data.msg.displayName);
+        });
+        socket.on("room",function(data){
+           console.log('get room info' ,data.msg);
+        });
+        socket.on("receiveRoom",function(data){
+            console.log('get receive from room ' + data.msg);
+        })
+        socket.on("disconnect",function(client){
+            console.log('disconnect from server ');
+        });
+        return socket;
+    }
+    function endConnection(socket){
+        if(socket !== undefined){
+            console.log('disconnect ');
+            socket.disconnect();
+        }
+    }
+
+    $('.connect001').click(function(){
+        if(socket !== undefined){
+            console.log('re connect');
+            socket.socket.reconnect();
+        }
+        else{
+            socket = startConnection(io,'001');
+        }
+    })
+    $('.disconnect001').click(function(){
+        endConnection(socket);
+    })
+    $('.leaveRoom001').click(function(){
+        leaveRoom(socket);
+    })
+    $('.sayRoom001').click(function(){
+        var now = new Date();
+        var msg = '001 say: ' + now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+        sayRoom(socket,msg);
+    })
+
+    $('.connect002').click(function(){
+        socket = startConnection(io,'002');
+    })
+    $('.disconnect002').click(function(){
+        endConnection(socket);
+    })
+    $('.leaveRoom002').click(function(){
+        leaveRoom(socket);
+    })
+    $('.sayRoom002').click(function(){
+        var now = new Date();
+        var msg = '002 say: ' + now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+        sayRoom(socket,msg);
+    })
+
+    $('.connect999').click(function(){
+        var now = new Date();
+        var name = '999' + now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+        socket = startConnection(io,name);
+    })
+    $('.leaveRoom999').click(function(){
+        leaveRoom(socket);
+    })
+    $('.disconnect999').click(function(){
+        endConnection(socket);
+    })
+    $('.sayRoom999').click(function(){
+        var now = new Date();
+        var msg = '999 say: ' + now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+        sayRoom(socket,msg);
+    })
+</script>
+</body>
+</html>
