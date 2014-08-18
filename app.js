@@ -358,3 +358,6 @@ store.set(sampleRoomUUID,JSON.stringify(sampleSession),function(err){
         console.log('sample data ' + obj.roomUUID + ' count:' + obj.registeredUserCount + ' ' + obj.registered['001'].userUUID + ' ' + obj.registered['002'].userUUID);
     })
 })
+
+
+
